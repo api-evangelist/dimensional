@@ -1,7 +1,14 @@
 aid: dimensional
 name: Dimensional
-description: Dimensional is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Dimensional is a Toronto-based personality-science company whose consumer
+  mobile app assesses more than 200 traits across 15 dimensions — including cognition,
+  values, communication styles, interests, love styles, attachment style, conflict
+  resolution, strengths, and political ideology — to build detailed personality profiles.
+  Users compare results with friends and explore relationship compatibility, positioning
+  the product against social-media highlight reels in favor of authentic connection.
+  The app is available on iOS with an Android beta, and the company is backed by Bloomberg
+  Beta. No public API, SDK, or developer platform is published at this time; this
+  profile captures the company's public web and security surface.
 url: https://raw.githubusercontent.com/api-evangelist/dimensional/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,30 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.dimensional.me/favicon.png
 tags:
 - Company
+- Personality Science
+- Psychology
+- Consumer
+- Mobile Application
+- Social
+- Relationships
+- Assessment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.dimensional.me/
+- type: Blog
+  url: https://about.dimensional.me/blog
+- type: TermsOfService
+  url: https://about.dimensional.me/terms-of-service
+- type: PrivacyPolicy
+  url: https://about.dimensional.me/privacy-policy
+- type: Support
+  url: mailto:hello@dimensional.me
+- type: DomainSecurity
+  url: security/dimensional-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
