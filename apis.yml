@@ -47,7 +47,7 @@ tags:
 - Personality Science
 - Psychology
 - Consumer
-- Mobile Applications
+- Mobile App
 - Social
 - Relationships
 - Assessment
@@ -60,6 +60,7 @@ tags_raw:
 - Social
 - Relationships
 - Assessment
+- Mobile Applications
 apis: []
 maintainers:
 - FN: Kin Lane
